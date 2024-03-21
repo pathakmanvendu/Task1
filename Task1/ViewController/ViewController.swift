@@ -11,8 +11,10 @@ class ViewController: UIViewController {
     
     var isChecked = false
     @IBOutlet weak var rectangle612: UIView!
+    @IBOutlet weak var razorpayRectangle: UIView!
     @IBOutlet weak var checkbutton: UIButton!
     @IBOutlet weak var rectangle614: UIView!
+    @IBOutlet weak var payButton: UIButton!
     @IBOutlet weak var rectangle615: UIView!
     var halfsheetVC: SheetViewController?
     @IBAction func seeMorePressed(_ sender: UIButton) {
@@ -44,6 +46,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
         setUI()
     }
     
@@ -68,6 +71,7 @@ class ViewController: UIViewController {
     }
 
 }
+
 
 
 
